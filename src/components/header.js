@@ -15,7 +15,7 @@ export const Body = styled.div`
     align-items: center;
     padding: 0.5rem 0rem;
     color: rgb(232, 234, 237);
-    min-height: 3.7rem;
+    min-height: 3.5rem;
     border-bottom: 1.5px solid grey;
     
     .hamburger_icon, .settings_icon{

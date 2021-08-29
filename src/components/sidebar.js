@@ -8,9 +8,9 @@ import { VscEdit } from 'react-icons/vsc';
 import { FaRegLightbulb } from 'react-icons/fa';
 
 const Body = styled.div`
-    background-color: transparent;
+    background-color: #202124;
     height: 90vh;
-    top: 10vh;
+    top: 9.2vh;
     width: 4rem;
     gap: 0.7rem;
     overflow: hidden;
