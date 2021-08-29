@@ -6,18 +6,20 @@ import { IoSettingsOutline } from 'react-icons/io5';
 
 
 
-export const Header = styled.div`
+export const Body = styled.div`
+    position: fixed;
     background-color: #202124;
     display: flex;
     justify-content: space-between;
+    width: 100vw;
     align-items: center;
     padding: 0.5rem 0rem;
     color: rgb(232, 234, 237);
     min-height: 3.7rem;
     border-bottom: 1.5px solid grey;
-
+    
     .hamburger_icon, .settings_icon{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         border-radius: 50%;
         padding: 0.7rem 0.7rem;
     }
@@ -72,9 +74,9 @@ const Logo =  styled.span`
     letter-spacing: 1px;
 `
 
-export let Sidebar = () => {
+export let Header = () => {
     return(
-        <Header>
+        <Body>
             <div className="left">
                 <GiHamburgerMenu className="hamburger_icon"/>
                 <Logo>Keep</Logo>
@@ -85,6 +87,6 @@ export let Sidebar = () => {
             <div className="right">
                 <IoSettingsOutline className="settings_icon" />
             </div>
-        </Header>
+        </Body>
     )
 }

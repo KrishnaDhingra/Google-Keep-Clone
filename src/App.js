@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Sidebar } from './components/header.js'
+import { Header } from './components/header.js'
+import { Sidebar } from './components/sidebar.js'
 
 export const Body = styled.div`
 `
@@ -8,6 +9,7 @@ export const Body = styled.div`
 export let App = () => {
   return (
     <Body>
+      <Header></Header>
       <Sidebar></Sidebar>
     </Body>      
   );
